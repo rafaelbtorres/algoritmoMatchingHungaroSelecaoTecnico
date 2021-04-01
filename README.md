@@ -50,17 +50,16 @@ Obs: No exemplo da imagem abaixo, entramos com 5 chamados e 5 técnicos. Ademais
 
 ## Teste
 
-<p>Na tabela abaixo, teste de mesa realizado para determinar o resultado esperado na simulação. Em cinza destacam-se as complexidades de baixa dificudade em relação aos chamados, relacionada na mesma linha do técnico selecionado.</p>
+<p>Na tabela abaixo, ilustramos um teste de mesa para demonstrar o resultado esperado na simulação. Em cinza destacam-se as complexidades de baixa dificudade em relação aos chamados, relacionada na mesma linha do técnico selecionado.</p>
 
 <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/rafaelbtorres/algoritmoMathingUngaroSelecaoTecnico/blob/master/imgs/testeDeMesa.png?raw=true" />
 
 ## Lista de Dependências
 
-<ul>
-  <li>Git</li>
-  <li>JDK (ambiente necessário para desenvolver e executar aplicativos em Java)</li>
-  <li>Netbeans</li>
-</ul>
+* Git
+* JDK (ambiente necessário para desenvolver e executar aplicativos em Java)
+* Netbeans
+
 
 ## Referências
 <p>KUHN, H. W. The hungarian method for the assignment problem. Naval Research Logistics Quarterly, v. 2, n. 1-2, p. 83–97, 1955. Disponível em http://dx.doi.org/10.1002/nav.3800020109</p>
