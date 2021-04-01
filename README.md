@@ -7,7 +7,6 @@ Tabela de conteúdos
    * [Instalação](#instalação)
    * [Como usar](#como-usar)
    * [Teste](#teste)
-<<<<<<< HEAD
    * [Referências](#referências)
 <!--te-->
 
