@@ -16,19 +16,20 @@ Tabela de conteúdos
 
 ## Instalação </p>
 
-### Clone este repositório
-$ git clone <https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTecnico.git>
-
-<p>Para executar o projeto, é necessário ter os seguintes componentes instalados na estação de trabalho que pretende executar o projeto:
+<p>É necessário instalar os seguintes componentes na estação de trabalho que pretende executar o projeto:
   
-  **JDK** (ambiente necessário para desenvolver e executar aplicativos em Java)
+  * JDK (ambiente necessário para desenvolver e executar aplicativos em Java)
   
-  **Git** (para clonar o projeto para a sua estação de trabalho)
+  * Git (para clonar o projeto para a sua estação de trabalho)
   
-  **Netbeans IDE 11.3** (para executar a aplicação)
+  * Netbeans IDE 11.3 (para executar a aplicação)
 </p>
+
 <p>https://www.java.com/pt-BR/download/help/windows_manual_download.html#download</p>
 <p>https://netbeans.apache.org/download/archive/index.html</p>
+
+### Clone este repositório
+$ git clone <https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTecnico.git>
 
 ## Como Usar
 
