@@ -71,4 +71,4 @@ Obs: No exemplo da imagem abaixo, entramos com 5 chamados e 5 técnicos. Ademais
 
 
 <p>Vídeo utilizado para entendimento do funcionamento do Algoritmo: https://www.youtube.com/watch?v=SAPG2T4Jbok</p>
->>>>>>> origin/master
+
