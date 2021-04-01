@@ -1,0 +1,13 @@
+Execução em: 01/04/2021 16:28:37
+
+Quantidade de chamados inseridos: 2
+Quantidade de técnicos inseridos: 2
+
+Matriz de complexidade:
+1.0 2.0 
+2.0 1.0 
+
+
+*** Saída ***
+O tecnico: 1 irá atender ao chamado: 0
+O tecnico: 2 irá atender ao chamado: 1
