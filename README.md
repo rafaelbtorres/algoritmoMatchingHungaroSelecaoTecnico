@@ -20,6 +20,7 @@ Tabela de conteúdos
 $ git clone <https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTecnico.git>
 
 <p>Para executar o projeto, é necessário ter os seguintes componentes instalados na estação de trabalho que pretende executar o projeto:
+  
   **JDK** (ambiente necessário para desenvolver e executar aplicativos em Java)
   **Git** (para clonar o projeto para a sua estação de trabalho)
   **Netbeans IDE 11.3** (para executar a aplicação)
