@@ -1,13 +1,13 @@
-Execução em: 01/04/2021 16:34:49
+Execução em: 21/04/2021 13:14:59
 
 Quantidade de chamados inseridos: 2
 Quantidade de técnicos inseridos: 2
 
 Matriz de complexidade:
-10.0 20.0 
-30.0 20.0 
+10.0 2.0 
+9.0 12.0 
 
 
 *** Saída ***
-O tecnico: 1 irá atender ao chamado: 0
-O tecnico: 2 irá atender ao chamado: 1
+O tecnico: 1 irá atender ao chamado: 1
+O tecnico: 2 irá atender ao chamado: 0
