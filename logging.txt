@@ -11,3 +11,4 @@ Matriz de complexidade:
 *** Saída ***
 O tecnico: 1 irá atender ao chamado: 0
 O tecnico: 2 irá atender ao chamado: 1
+a
