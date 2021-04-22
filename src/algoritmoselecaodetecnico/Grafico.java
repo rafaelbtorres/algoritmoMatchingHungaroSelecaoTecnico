@@ -21,6 +21,7 @@ import org.jfree.data.category.DefaultCategoryDataset;
 public class Grafico {
 //    public CategoryDataset createDataSet(ArrayList<Pessoa> listaDePessoas){
 
+<<<<<<< HEAD
     public CategoryDataset createDataSet(ArrayList<Medicao> medicoesComplexidade, ArrayList<Medicao> medicoesSemComplexidade) {
         DefaultCategoryDataset dataSet = new DefaultCategoryDataset();
 
@@ -49,6 +50,31 @@ public class Grafico {
 //        dataSet.setValue(10.0, "Row 4", "Brilho");
 //        dataSet.setValue(250.0, "Row 4", "Aço");
 //        dataSet.setValue(300.0, "Row 4", "Sentido?");
+=======
+    public CategoryDataset createDataSet() {
+        DefaultCategoryDataset dataSet = new DefaultCategoryDataset();
+
+
+        dataSet.setValue(0.0, "Row 1", "Alegria");
+        dataSet.setValue(100.0, "Row 1", "Brilho");
+        dataSet.setValue(200.0, "Row 1", "Aço");
+        dataSet.setValue(300.0, "Row 1", "Sentido?");
+
+        dataSet.setValue(0.0, "Row 2", "Alegria");
+        dataSet.setValue(50.0, "Row 2", "Brilho");
+        dataSet.setValue(100.0, "Row 2", "Aço");
+        dataSet.setValue(300.0, "Row 2", "Sentido?");
+
+        dataSet.setValue(0.0, "Row 3", "Alegria");
+        dataSet.setValue(90.0, "Row 3", "Brilho");
+        dataSet.setValue(120.0, "Row 3", "Aço");
+        dataSet.setValue(300.0, "Row 3", "Sentido?");
+
+        dataSet.setValue(0.0, "Row 4", "Alegria");
+        dataSet.setValue(10.0, "Row 4", "Brilho");
+        dataSet.setValue(250.0, "Row 4", "Aço");
+        dataSet.setValue(300.0, "Row 4", "Sentido?");
+>>>>>>> fccb49d52aa34bcdccc9f327d61455a9e715d8b2
 
 //        for(Pessoa pessoa : listaDePessoas){
 //            dataSet.addValue(pessoa.getIdade(), pessoa.getNome(), "");
@@ -72,10 +98,17 @@ public class Grafico {
         return grafico;
     }
 
+<<<<<<< HEAD
 
     public ChartPanel criarGrafico(ArrayList<Medicao> medicoesComplexidade, ArrayList<Medicao> medicoesSemComplexidade) {
 
         CategoryDataset dataSet = this.createDataSet(medicoesComplexidade, medicoesSemComplexidade);
+=======
+//    public ChartPanel criarGrafico(ArrayList<Pessoa> listaDePessoas){
+    public ChartPanel criarGrafico() {
+//        CategoryDataset dataSet = this.createDataSet(listaDePessoas);
+        CategoryDataset dataSet = this.createDataSet();
+>>>>>>> fccb49d52aa34bcdccc9f327d61455a9e715d8b2
 
         JFreeChart grafico = this.createLineChart(dataSet);
 
