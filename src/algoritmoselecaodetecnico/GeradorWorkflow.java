@@ -46,8 +46,7 @@ public class GeradorWorkflow {
         for (int i = 0; i < chamados.size()-1; i++) {
             for (int j = 0; j < tecnicos.size()-1; j++) {
                 workflowComplexidade[i][j] = calculaComplexidade(chamados.get(i), tecnicos.get(j));
-                workflowSemComplexidade[i][j] = getComplexidade();
-
+                workflowSemComplexidade[i][j] = getComplexidadeAleatoria();
             }
         }
         workflow.put("workflowComplexidade", workflowComplexidade);
@@ -57,16 +56,16 @@ public class GeradorWorkflow {
         return workflow;
     }
     
-    public double [][] gerarWorkflowSemComplexidade(){
-
-        for (int i = 0; i < chamados.size()-1; i++) {
-            for (int j = 0; j < tecnicos.size()-1; j++) {
-                workflowSemComplexidade[i][j] = getComplexidade();
-            }
-        }
-               
-        return workflowComplexidade;
-    }
+//    public double [][] gerarWorkflowSemComplexidade(){
+//
+//        for (int i = 0; i < chamados.size()-1; i++) {
+//            for (int j = 0; j < tecnicos.size()-1; j++) {
+//                workflowSemComplexidade[i][j] = getComplexidade();
+//            }
+//        }
+//               
+//        return workflowComplexidade;
+//    }
     
     private int calculaComplexidade(Chamado chamado, Tecnico tecnico){
         
@@ -125,6 +124,12 @@ public class GeradorWorkflow {
     }    
     private int getComplexidade(){
         int result = RAND.nextInt((5 - 1) + 1) + 1;
+     
+     return result;   
+    }
+    
+    private int getComplexidadeAleatoria(){
+        int result = RAND.nextInt((60 - 1) + 1) + 1;
      
      return result;   
     }
