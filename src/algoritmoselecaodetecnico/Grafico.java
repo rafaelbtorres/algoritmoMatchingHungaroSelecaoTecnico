@@ -22,6 +22,7 @@ public class Grafico {
 //    public CategoryDataset createDataSet(ArrayList<Pessoa> listaDePessoas){
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public CategoryDataset createDataSet(ArrayList<Medicao> medicoesComplexidade, ArrayList<Medicao> medicoesSemComplexidade) {
         DefaultCategoryDataset dataSet = new DefaultCategoryDataset();
 
@@ -81,6 +82,8 @@ public class Grafico {
 //        dataSet.setValue(250.0, "Row 4", "Aço");
 //        dataSet.setValue(300.0, "Row 4", "Sentido?");
 =======
+=======
+>>>>>>> master
     public CategoryDataset createDataSet() {
         DefaultCategoryDataset dataSet = new DefaultCategoryDataset();
 
@@ -104,8 +107,11 @@ public class Grafico {
         dataSet.setValue(10.0, "Row 4", "Brilho");
         dataSet.setValue(250.0, "Row 4", "Aço");
         dataSet.setValue(300.0, "Row 4", "Sentido?");
+<<<<<<< HEAD
 >>>>>>> fccb49d52aa34bcdccc9f327d61455a9e715d8b2
 >>>>>>> gerador-workflow
+=======
+>>>>>>> master
 
 //        for(Pessoa pessoa : listaDePessoas){
 //            dataSet.addValue(pessoa.getIdade(), pessoa.getNome(), "");
@@ -130,6 +136,7 @@ public class Grafico {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> gerador-workflow
@@ -140,12 +147,17 @@ public class Grafico {
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> master
 //    public ChartPanel criarGrafico(ArrayList<Pessoa> listaDePessoas){
     public ChartPanel criarGrafico() {
 //        CategoryDataset dataSet = this.createDataSet(listaDePessoas);
         CategoryDataset dataSet = this.createDataSet();
+<<<<<<< HEAD
 >>>>>>> fccb49d52aa34bcdccc9f327d61455a9e715d8b2
 >>>>>>> gerador-workflow
+=======
+>>>>>>> master
 
         JFreeChart grafico = this.createLineChart(dataSet);
 
