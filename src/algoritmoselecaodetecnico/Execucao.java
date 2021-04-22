@@ -59,6 +59,8 @@ public class Execucao {
         g = null;
         System.gc();       
         Temporizador medicoesComplexidade = new Temporizador();
+        Temporizador medicoesSemComplexidade = new Temporizador();
+        
         int marcacao = (workflow.get("workflowComplexidade").length * 10) / 100;
         for (int i = marcacao; i < workflow.get("workflowComplexidade").length; i = i +marcacao) {
             
@@ -74,10 +76,21 @@ public class Execucao {
             long tempoFinal = System.currentTimeMillis();
             medicoesComplexidade.addMedicao(i, (tempoFinal - tempoInicial));
         }
+        for (int i = marcacao; i < workflow.get("workflowSemComplexidade").length; i = i +marcacao) {
+            
+            double [][] novoWorkflow =   Util.limitaWorkflow(i, workflow.get("workflowSemComplexidade"));         
+            
+            AlgortimoSelecaoDeTecnico hbm = new AlgortimoSelecaoDeTecnico(novoWorkflow);
+            long tempoInicial = System.currentTimeMillis();
+            
+            
+            int [] result = hbm.passo1();
+            
+            
+            long tempoFinal = System.currentTimeMillis();
+            medicoesSemComplexidade.addMedicao(i, (tempoFinal - tempoInicial));
+        }        
         
-        for (Medicao medicao : medicoesComplexidade.getMedicoes()) {
-            System.out.println("Quantidade execuções: " + medicao.getQuantidadeExecucoes() + " Tempo de execução: " + medicao.getTempo() + " Seg.");
-        }
 
         
 //        int tec = 1;
