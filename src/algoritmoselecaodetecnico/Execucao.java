@@ -52,7 +52,7 @@ public class Execucao {
 //            System.out.println(arg);
 //        }
 
-        GeradorWorkflow g = new GeradorWorkflow(Integer.valueOf(args[0]));
+        GeradorWorkflow g = new GeradorWorkflow(2000);
 
         HashMap<String, double [][]> workflow = g.gerarWorkflowComplexidade();
         
