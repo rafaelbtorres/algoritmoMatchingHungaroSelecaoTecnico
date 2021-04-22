@@ -6,7 +6,9 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class AlgortimoSelecaoDeTecnico {
-
+   
+    Temporizador temporizador = new Temporizador();
+    
     private final double[][] matrizDeComplexidade;
     private final int linhas, colunas, dim;
     private final double[] tecnicos, chamados;

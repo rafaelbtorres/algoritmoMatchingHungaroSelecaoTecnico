@@ -51,22 +51,41 @@ public class Execucao {
 //        for (String arg : args) {
 //            System.out.println(arg);
 //        }
-        GeradorWorkflow g = new GeradorWorkflow(10);
+
+        GeradorWorkflow g = new GeradorWorkflow(Integer.valueOf(args[0]));
 
         HashMap<String, double [][]> workflow = g.gerarWorkflowComplexidade();
         
         g = null;
-        System.gc();
-        
-        AlgortimoSelecaoDeTecnico hbm = new AlgortimoSelecaoDeTecnico(workflow.get("workflowComplexidade"));
-        int [] result = hbm.passo1();
-        
-        int tec = 1;
-        
-        for (int ch = 0; ch < result.length; ++ch) {
-            System.out.println("O tecnico: " + tec++ + " irá atender ao chamado: " + (result[ch]+1));
-            //saidaLog = saidaLog + "O tecnico: " + tec + " irá atender ao chamado: " + result[ch] + "\n";
+        System.gc();       
+        Temporizador medicoesComplexidade = new Temporizador();
+        int marcacao = (workflow.get("workflowComplexidade").length * 10) / 100;
+        for (int i = marcacao; i < workflow.get("workflowComplexidade").length; i = i +marcacao) {
+            
+            double [][] novoWorkflow =   Util.limitaWorkflow(i, workflow.get("workflowComplexidade"));         
+            
+            AlgortimoSelecaoDeTecnico hbm = new AlgortimoSelecaoDeTecnico(novoWorkflow);
+            long tempoInicial = System.currentTimeMillis();
+            
+            
+            int [] result = hbm.passo1();
+            
+            
+            long tempoFinal = System.currentTimeMillis();
+            medicoesComplexidade.addMedicao(i, (tempoFinal - tempoInicial));
         }
+        
+        for (Medicao medicao : medicoesComplexidade.getMedicoes()) {
+            System.out.println("Quantidade execuções: " + medicao.getQuantidadeExecucoes() + " Tempo de execução: " + medicao.getTempo() + " Seg.");
+        }
+
+        
+//        int tec = 1;
+        
+//        for (int ch = 0; ch < result.length; ++ch) {
+//            System.out.println("O tecnico: " + tec++ + " irá atender ao chamado: " + (result[ch]+1));
+//            //saidaLog = saidaLog + "O tecnico: " + tec + " irá atender ao chamado: " + result[ch] + "\n";
+//        }
     }
     
 }
