@@ -35,13 +35,21 @@ $ git clone <https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTec
 
 **Passo 1.** Clone o projeto "algoritmoMatchingHungaroSelecaoTecnico" em seu computador;
 
-**Passo 2.** Navegue até a pasta do projeto, acesse a pasta dist dentro do projeto e abra o cmd (para abrir o cmd, digite cmd na barra de endereço da pasta onde está o projeto clonado).
+**Passo 2.** Adicione as bibliotecas ao projeto "algoritmoMatchingHungaroSelecaoTecnico", as bibliotecas estão localizadas dentro da pasta "docs" do projeto "algoritmoMatchingHungaroSelecaoTecnico", para isso é necessário abrir o projeto no netbeans e selecionar as 3 bibliotecas:
+
+* jcommon-1.0.23.jar
+* jfreechar-1.0.19.jar
+* swtgraphics2d.jar
+
+<img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTecnico/blob/master/imgs/libs.jpg" />
+
+**Passo 3.** Navegue até a pasta do projeto, acesse a pasta dist dentro do projeto e abra o cmd (para abrir o cmd, digite cmd na barra de endereço da pasta onde está o projeto clonado).
 
 <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTecnico/blob/master/imgs/executar.jpg" />
 
-**Passo 3.** Digite o comando: java -jar algoritmoSelecaoDeTecnico.jar 1000 (caso não informe um valor correto no final, será aplicado um valor padrão 2000).
+**Passo 4.** Digite o comando: java -jar algoritmoSelecaoDeTecnico.jar 1000 (caso não informe um valor correto no final, será aplicado um valor padrão 2000).
 
-Logo abaixo, a Figura exibe o resultado da execução do comando encontrado no Passo 3, um gráfico resultante do Algoritmo Matching Hungaro relacionado a Seleção de Técnico para determinado número de chamados.
+Logo abaixo, a Figura exibe o resultado da execução do comando encontrado no Passo 4, um gráfico resultante do Algoritmo Matching Hungaro relacionado a Seleção de Técnico para determinado número de chamados.
 <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTecnico/blob/master/imgs/executado.jpg" />
 
 ## Teste
