@@ -33,9 +33,9 @@ $ git clone <https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTec
 
 ## Como Usar
 
-**Passo 1.** Clone o projeto "algoritmoMatchingHungaroSelecaoTecnico" em seu computador;
+**Passo 1.** Clone o projeto "AlgoritmoSelecaoTecnico" em seu computador;
 
-**Passo 2.** Adicione as bibliotecas ao projeto "algoritmoMatchingHungaroSelecaoTecnico", as bibliotecas estão localizadas dentro da pasta "docs" do projeto "algoritmoMatchingHungaroSelecaoTecnico", para isso é necessário abrir o projeto no netbeans e selecionar as 3 bibliotecas:
+**Passo 2.** Adicione as bibliotecas ao projeto "AlgoritmoSelecaoTecnico", as bibliotecas estão localizadas dentro da pasta "docs" desse projeto, para isso é necessário abrir esse projeto no netbeans e selecionar as 3 bibliotecas:
 
 * jcommon-1.0.23.jar
 * jfreechar-1.0.19.jar
