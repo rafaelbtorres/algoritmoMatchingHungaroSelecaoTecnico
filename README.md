@@ -35,18 +35,9 @@ $ git clone <https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTec
 
 <p>Após clonar o projeto, execute o arquivo "AlgoritmoSelecaoDeTecnico.java". Para executar, basta selecionar o arquivo e pressionar a tecla "F6".</p>
 
-<img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/rafaelbtorres/algoritmoMathingUngaroSelecaoTecnico/blob/master/imgs/hungaro1.jpg?raw=true" />
+**Passo 1.** Navegue até a pasta onde encontra-se o projeto clonado e abra o cmd (para abrir o cmd, digite cmd na barra de endereço da pasta onde está o projeto clonado).
 
-**Passo 1.** Informe a quantidade de chamados e tecle "Enter".
-
-**Passo 2.** Informe a quantidade de técnicos e tecle "Enter" para confirmar.
-
-**Passo 3.** Complete a matriz de divisão de complexidade, informando a complexibilidade que cada técnico é caracterizado para solucionar cada chamado. 
-Obs: No exemplo da imagem abaixo, entramos com 5 chamados e 5 técnicos. Ademais, informamos em formato de matriz a complexidade da cada técnico perante aos chamados designados.
-
-**Passo 4.** Verifique o resultado da aplicação: O resultado da-se pela alocação de chamados para cada técnico que estiver caracterizado com valor de complexidade mais baixo que os demais técnicos.
-
-<img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/rafaelbtorres/algoritmoMathingUngaroSelecaoTecnico/blob/master/imgs/hungaro2.jpg?raw=true" />
+**Passo 2.** Digite o comando tal.
 
 ## Teste
 
