@@ -9,10 +9,21 @@ import org.jfree.data.category.CategoryDataset;
 public class Execucao {
 
     public static void main(String[] args) {
+    
+        int _tamanhoN = 2000;
+        
+        if(args.length != 0){
+            if (Util.isInt(args[0])) {
+                _tamanhoN = Integer.valueOf(args[0]);                
+            }
+            else{
+                System.out.println("## Seu parâmetro é inválido ##");
+                System.out.println("Utilizando valor default: " + _tamanhoN);
+            }
 
-
-        GeradorWorkflow g = new GeradorWorkflow(2000);
-        Grafico grafico2 = new Grafico();
+        }
+        
+        GeradorWorkflow g = new GeradorWorkflow(_tamanhoN);
         HashMap<String, double [][]> workflow = g.gerarWorkflowComplexidade();
         
         g = null;
@@ -21,7 +32,7 @@ public class Execucao {
         Temporizador medicoesSemComplexidade = new Temporizador();
  
         
-        int marcacao = (workflow.get("workflowComplexidade").length * 10) / 100;
+        int marcacao = (workflow.get("workflowComplexidade").length * 5) / 100;
         for (int i = marcacao; i <= workflow.get("workflowComplexidade").length; i = i +marcacao) {
             
             double [][] novoWorkflow =   Util.limitaWorkflow(i, workflow.get("workflowComplexidade"));         
@@ -51,13 +62,10 @@ public class Execucao {
             long tempoFinal = System.currentTimeMillis();
             medicoesSemComplexidade.addMedicao(i, (tempoFinal - tempoInicial));
         }        
-JanelaDoGrafico grafico = new JanelaDoGrafico(medicoesComplexidade.getMedicoes(), medicoesSemComplexidade.getMedicoes());
-grafico.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-grafico.setSize(600,600);
-grafico.setVisible(true);
-grafico.setTitle("Algoritmo de Seleção");
 
+Grafico grafico = new Grafico("teste", medicoesComplexidade.getMedicoes(), medicoesSemComplexidade.getMedicoes());
 
+    
     }
     
 }

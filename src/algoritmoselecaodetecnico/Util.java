@@ -14,4 +14,13 @@ public class Util {
         
         return aux;
     }
+    
+    public static boolean isInt(String entrada) {
+        try {
+            Integer.parseInt(entrada);
+            return true;
+        } catch (Exception erro) {
+            return false;
+        }
+    }
 }
