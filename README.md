@@ -37,11 +37,12 @@ $ git clone <https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTec
 
 **Passo 2.** Navegue até a pasta do projeto, acessa a pasta dist dentro do projeto e abra o cmd (para abrir o cmd, digite cmd na barra de endereço da pasta onde está o projeto clonado).
 
-<img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/rafaelbtorres/algoritmoMathingUngaroSelecaoTecnico/blob/master/imgs/executar.png?raw=true" />
+<img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTecnico/blob/master/imgs/executar.jpg" />
 
 **Passo 3.** Digite o comando: java -jar algoritmoSelecaoDeTecnico.jar 1000 (caso não informe um valor correto no final, será aplicado um valor padrão 2000).
 
-<img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/rafaelbtorres/algoritmoMathingUngaroSelecaoTecnico/blob/master/imgs/executado.png?raw=true" />
+Logo abaixo, a Figura exibe o resultado da executação do comando encontrado no Passo 3.
+<img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTecnico/blob/master/imgs/executado.jpg" />
 
 ## Teste
 
