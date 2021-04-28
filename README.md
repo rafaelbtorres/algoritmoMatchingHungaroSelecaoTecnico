@@ -33,11 +33,11 @@ $ git clone <https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTec
 
 ## Como Usar
 
-<p>Após clonar o projeto, execute o arquivo "AlgoritmoSelecaoDeTecnico.java". Para executar, basta selecionar o arquivo e pressionar a tecla "F6".</p>
+**Passo 1.** Clone o projeto "algoritmoMatchingHungaroSelecaoTecnico" em seu computador;
 
-**Passo 1.** Navegue até a pasta onde encontra-se o projeto clonado e abra o cmd (para abrir o cmd, digite cmd na barra de endereço da pasta onde está o projeto clonado).
+**Passo 2.** Navegue até a pasta do projeto, acessa a pasta dist dentro do projeto e abra o cmd (para abrir o cmd, digite cmd na barra de endereço da pasta onde está o projeto clonado).
 
-**Passo 2.** Digite o comando tal.
+**Passo 3.** Digite o comando: java -jar algoritmoSelecaoDeTecnico.jar 1000 (caso não informe um valor correto no final, será aplicado um valor padrão 2000).
 
 ## Teste
 
