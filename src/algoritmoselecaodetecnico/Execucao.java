@@ -1,10 +1,7 @@
 
 package algoritmoselecaodetecnico;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import javax.swing.JFrame;
-import org.jfree.data.category.CategoryDataset;
 
 public class Execucao {
 
@@ -63,7 +60,7 @@ public class Execucao {
             medicoesSemComplexidade.addMedicao(i, (tempoFinal - tempoInicial));
         }        
 
-Grafico grafico = new Grafico("teste", medicoesComplexidade.getMedicoes(), medicoesSemComplexidade.getMedicoes());
+Grafico grafico = new Grafico("", medicoesComplexidade.getMedicoes(), medicoesSemComplexidade.getMedicoes());
 
     
     }

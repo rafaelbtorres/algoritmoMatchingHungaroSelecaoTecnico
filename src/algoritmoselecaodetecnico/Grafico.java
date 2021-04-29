@@ -12,8 +12,6 @@ import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.AxisLocation;
-import org.jfree.chart.axis.NumberAxis3D;
-import org.jfree.chart.axis.ValueAxis;
 import org.jfree.chart.plot.CategoryPlot;
 import org.jfree.chart.plot.DatasetRenderingOrder;
 import org.jfree.chart.plot.PlotOrientation;
@@ -50,13 +48,7 @@ DefaultCategoryDataset _dataset;
            );
 
 
-        // NOW DO SOME OPTIONAL CUSTOMISATION OF THE CHART...
-
-        // set the background color for the chart...
         grafico.setBackgroundPaint(new Color(0xCC, 0xFF, 0xCC));
-//        chart.getLegend().setAnchor(Legend.SOUTH);
-
-        // get a reference to the plot for further customisation...
         final CategoryPlot plot = grafico.getCategoryPlot();
         plot.setDomainAxisLocation(AxisLocation.BOTTOM_OR_LEFT);
         plot.setRangeAxisLocation(AxisLocation.TOP_OR_LEFT);
@@ -65,19 +57,14 @@ DefaultCategoryDataset _dataset;
         renderer1.setSeriesPaint(1, Color.yellow);
         renderer1.setSeriesPaint(2, Color.green);
         final CategoryDataset dataset2 = createDataSet2(medicoesComplexidade, medicoesSemComplexidade);
-//        final ValueAxis axis2 = new NumberAxis3D();
-//        plot.setRangeAxis(1, axis2);
         plot.setDataset(1, dataset2);
-//        plot.mapDatasetToRangeAxis(1, 1);
         
         final CategoryItemRenderer renderer2 = new LineAndShapeRenderer();
         renderer2.setSeriesPaint(0, Color.blue);
         plot.setRenderer(1, renderer2);
 
         plot.setDatasetRenderingOrder(DatasetRenderingOrder.REVERSE);
-        // OPTIONAL CUSTOMISATION COMPLETED.
 
-        // add the chart to a panel...
         final ChartPanel chartPanel = new ChartPanel(grafico);
         chartPanel.setPreferredSize(new java.awt.Dimension(1200, 600));
         setContentPane(chartPanel);
@@ -119,17 +106,14 @@ DefaultCategoryDataset _dataset;
     }
 private CategoryDataset createDataset3() {
 
-        // row keys...
         final String series1 = "Fourth";
 
-        // column keys...
         final String category1 = "Category 1";
         final String category2 = "Category 2";
         final String category3 = "Category 3";
         final String category4 = "Category 4";
         final String category5 = "Category 5";
 
-        // create the dataset...
         final DefaultCategoryDataset dataset = new DefaultCategoryDataset();
 
         dataset.addValue(15.0, series1, category1);
