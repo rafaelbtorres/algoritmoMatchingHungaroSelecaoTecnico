@@ -33,20 +33,24 @@ $ git clone <https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTec
 
 ## Como Usar
 
-<p>Após clonar o projeto, execute o arquivo "AlgoritmoSelecaoDeTecnico.java". Para executar, basta selecionar o arquivo e pressionar a tecla "F6".</p>
+**Passo 1.** Clone o projeto "AlgoritmoSelecaoTecnico" em seu computador;
 
-<img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/rafaelbtorres/algoritmoMathingUngaroSelecaoTecnico/blob/master/imgs/hungaro1.jpg?raw=true" />
+**Passo 2.** Adicione as bibliotecas ao projeto "AlgoritmoSelecaoTecnico", as bibliotecas estão localizadas dentro da pasta "docs" desse projeto, para isso é necessário abrir esse projeto no netbeans e selecionar as 3 bibliotecas:
 
-**Passo 1.** Informe a quantidade de chamados e tecle "Enter".
+* jcommon-1.0.23.jar
+* jfreechar-1.0.19.jar
+* swtgraphics2d.jar
 
-**Passo 2.** Informe a quantidade de técnicos e tecle "Enter" para confirmar.
+<img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTecnico/blob/master/imgs/libs.jpg" />
 
-**Passo 3.** Complete a matriz de divisão de complexidade, informando a complexibilidade que cada técnico é caracterizado para solucionar cada chamado. 
-Obs: No exemplo da imagem abaixo, entramos com 5 chamados e 5 técnicos. Ademais, informamos em formato de matriz a complexidade da cada técnico perante aos chamados designados.
+**Passo 3.** Navegue até a pasta do projeto, acesse a pasta dist dentro do projeto e abra o cmd (para abrir o cmd, digite cmd na barra de endereço da pasta onde está o projeto clonado).
 
-**Passo 4.** Verifique o resultado da aplicação: O resultado da-se pela alocação de chamados para cada técnico que estiver caracterizado com valor de complexidade mais baixo que os demais técnicos.
+<img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTecnico/blob/master/imgs/executar.jpg" />
 
-<img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/rafaelbtorres/algoritmoMathingUngaroSelecaoTecnico/blob/master/imgs/hungaro2.jpg?raw=true" />
+**Passo 4.** Digite o comando: java -jar algoritmoSelecaoDeTecnico.jar 1000 (caso não informe um valor correto no final, será aplicado um valor padrão 2000).
+
+Logo abaixo, a Figura exibe o resultado da execução do comando encontrado no Passo 4, um gráfico resultante do Algoritmo Matching Hungaro relacionado a Seleção de Técnico para determinado número de chamados.
+<img alt="NextLevelWeek" title="#NextLevelWeek" src="https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTecnico/blob/master/imgs/executado.jpg" />
 
 ## Teste
 
