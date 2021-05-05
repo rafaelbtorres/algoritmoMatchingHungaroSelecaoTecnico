@@ -1,1 +1,7 @@
 
+# NetBeans specific #
+nbproject/private/
+build/
+nbbuild/
+# Class Files #
+*.class
