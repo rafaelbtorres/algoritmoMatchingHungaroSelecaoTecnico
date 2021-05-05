@@ -16,13 +16,13 @@ Tabela de conteúdos
 
 ## Execução do Projeto </p>
 
-<p> Para execução do projeto, é necessário realizar algumas configurações para que tudo ocorra conforme o esperado. Tais configurações são descritas abaixo.
+<p> Para executar o projeto, é necessário realizar algumas configurações para que tudo ocorra conforme o esperado. Tais configurações são descritas abaixo.
   
   * Passo 1. Acesse o link:  https://github.com/rafaelbtorres/algoritmoMatchingHungaroSelecaoTecnico.git e clone o projeto "AlgoritmoSelecaoTecnico"  em seu computador.
   
   * Passo 2. Abra o terminal de comandos, ou cmd, navegue até o local do projeto clonado e entre na pasta *dist*. 
   
-  * Passo 3. Agora que você está dentro da pasta *dist*, basta execitar o seguinte comando: java -jar AlgoritmoSelecaoTecnico.jar -n (onde n é o tamanho da instância).
+  * Passo 3. Agora que você está dentro da pasta *dist*, basta executar o seguinte comando: java -jar AlgoritmoSelecaoTecnico.jar -n (onde n é o tamanho da instância).
   A Figura abaixo exemplifica este processo com n = 2000. 
   <img alt="executar" title="#Exemplo de execução" src="https://github.com/rafaelbtorres/algoritmoMathingUngaroSelecaoTecnico/blob/master/imgs/executar.png?raw=true" />
 
