@@ -3,5 +3,6 @@
 nbproject/private/
 build/
 nbbuild/
+dist/
 # Class Files #
 *.class
