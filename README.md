@@ -5,8 +5,6 @@ Tabela de conteúdos
 <!--ts-->
    * [Descrição do Projeto](#Descrição-do-Projeto)
    * [Execução do Projeto](#execução)
-   * [Como usar](#como-usar)
-   * [Teste](#teste)
    * [Referências](#referências)
 <!--te-->
 
@@ -22,7 +20,7 @@ Tabela de conteúdos
   
   * Passo 2. Abra o terminal de comandos, ou cmd, navegue até o local do projeto clonado e entre na pasta *dist*. 
   
-  * Passo 3. Agora que você está dentro da pasta *dist*, basta executar o seguinte comando: java -jar AlgoritmoSelecaoTecnico.jar -n (onde n é o tamanho da instância).
+  * Passo 3. Agora que você está dentro da pasta *dist*, basta executar o seguinte comando: java -jar AlgoritmoSelecaoTecnico.jar n (onde n é o tamanho da instância).
   A Figura abaixo exemplifica este processo com n = 2000. 
   <img alt="executar" title="#Exemplo de execução" src="https://github.com/rafaelbtorres/algoritmoMathingUngaroSelecaoTecnico/blob/master/imgs/executar.png?raw=true" />
 
