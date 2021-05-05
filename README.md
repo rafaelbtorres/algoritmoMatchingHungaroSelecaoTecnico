@@ -21,7 +21,8 @@ Tabela de conteúdos
   * Passo 2. Abra o terminal de comandos, ou cmd, navegue até o local do projeto clonado e entre na pasta *dist*. 
   
   * Passo 3. Agora que você está dentro da pasta *dist*, basta executar o seguinte comando: java -jar AlgoritmoSelecaoTecnico.jar n (onde n é o tamanho da instância).
-  A Figura abaixo exemplifica este processo com n = 2000. 
+  A Figura abaixo exemplifica este processo com n = 2000.
+  *caso não seja determinado manualmente o valor de n padrão será sempre 2000
   <img alt="executar" title="#Exemplo de execução" src="https://github.com/rafaelbtorres/algoritmoMathingUngaroSelecaoTecnico/blob/master/imgs/executar.png?raw=true" />
 
   * Passo 4. Analise os resultados. A partir do momento em que você executou o comando, um gráfico similar ao apresentado na figura abaixo deve ser exibido.
